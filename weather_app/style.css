@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: skyblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/042/195/725/small_2x/ai-generated-rainy-sky-background-free-photo.jpg); 
+    background-size: cover;
+} 
+
+.container{
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+} 
+
+#cityInput{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1rem;
+} 
+
+#searchBtn{
+    padding: 10px 20px;
+    background-color: rgb(22, 128, 171); 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+} 
+
+#searchBtn:hover{
+    background-color: #4987ce;
+} 
+
+#weatherResult{
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #333;
+}
